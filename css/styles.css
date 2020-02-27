@@ -52,7 +52,7 @@ body{
   
   /* The Transformation */
   .img-hover-zoom--zoom-n-rotate:hover img {
-    transform: scale(2) rotate(25deg);
+    transform: scale(2) rotate(360deg);
   }
 
 
