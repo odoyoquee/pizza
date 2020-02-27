@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MalGee Pizza</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+   
+    <div id="home">
+<div class="container">
+    <h1 id="mal">MalGee Pizza</h1>
+    <div class="w3-content w3-section" style="width:-10%">
+        <img class="mySlides" src="">
+        <img class="mySlides" src="">
+        <img class="mySlides" src="">
+        <img class="mySlides" src="">
+        <img class="mySlides" src="">
+        <img class="mySlides" src="">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore, eum odio totam vero
+            pariatur atque veniam repellendus quisquam fugiat excepturi non nobis ipsum minus! Officiis
+            dicta quas eaque porro.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis nostrum voluptas
+            reprehenderit saepe tempore quam doloribus impedit, dolore quaerat molestiae harum ullam
+            eum et nemo libero voluptatem ducimus facilis.</p>
+
+
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore, eum odio totam vero
+            pariatur atque veniam repellendus quisquam fugiat excepturi non nobis ipsum minus! Officiis
+            dicta quas eaque porro.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis nostrum voluptas
+            reprehenderit saepe tempore quam doloribus impedit, dolore quaerat molestiae harum ullam
+            eum et nemo libero voluptatem ducimus facilis.</p>
+
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore, eum odio totam vero
+            pariatur atque veniam repellendus quisquam fugiat excepturi non nobis ipsum minus! Officiis
+            dicta quas eaque porro.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis nostrum voluptas
+            reprehenderit saepe tempore quam doloribus impedit, dolore quaerat molestiae harum ullam
+            eum et nemo libero voluptatem ducimus facilis.</p>
+    </div>
+    </div>
+   
+</body>
+
+</html>
