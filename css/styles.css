@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
+
+
+
+
+
+
 body{
     
     background-image: url('../images/mahyar.jpg');
@@ -14,11 +23,24 @@ body{
 }
 #mal{
     text-transform: uppercase;
-    color:red;
+    font-size: 65px;
+    color: #fff;
     text-align: center;
-    font-size: 50px;
-    font-weight: 100px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Fredericka the Great' ;
+    
+
 }
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+    to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;       
+    }
+  }
 .nav-item{
     padding: 30px;
     height:10px;
@@ -71,5 +93,12 @@ body{
     padding: 20px;
     text-align: center;
   }
+#deliver{
+    font-size: 30px;
+    
+    font-family: 'Vidaloka';
 
+
+
+}
 
