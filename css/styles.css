@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
-
-
-
-
-
-
 body{
     
     background-image: url('../images/mahyar.jpg');
@@ -38,12 +32,21 @@ body{
 .nav-item{
     padding: 30px;
     height:10px;
+    font-family: italic;
+    font-size: 20px;
  }
 
  #portfolio{
     padding: 50px;
     color:black;
   }
+  #about{
+    font-family: 'Fondamento', cursive;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
 
 
 
