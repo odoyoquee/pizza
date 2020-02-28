@@ -46,26 +46,28 @@
           <div class="form-group">
             <label for="sel1">Pizza Type:</label>
             <select class="form-control w-50" id="sel1">
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
+              <option value="0">--Choose Type--</option>
+              <option value="850">Pepperoni</option>
+              <option value="800">Deluxe/Supreme</option>
+              <option value="750">Meat Lovers</option>
+              <option value="700">Margherita</option>
+              <option value="650">Vegetarian</option>
+              <option value="600">Hawaiian</option>
+              <option value="550">Cheese/Double Cheese</option>
+              <option value="500">Italian Sausage</option>
+              <option value="450">BBQ Chicken</option>
+              <option value="400">Mexican</option>
             </select>
             <br>
 
             <div class="form-group">
                 <label for="sel1">Pizza Size:</label>
                 <select class="form-control w-50" id="sel1">
-                  <option>Mega</option>
-                  <option>Large</option>
-                  <option>Medium</option>
-                  <option>Small</option>
+                  <option value="0">--Choose Size</option>
+                  <option value="1500">Mega</option>
+                  <option value="1200">Large</option>
+                  <option value="1000">Medium</option>
+                  <option value="800">Small</option>
                 </select>
                 <br>
 
@@ -73,15 +75,15 @@
                     <label for="sel1">Crust:</label>
                     <select class="form-control w-50" id="sel1">
                       <option value="0">--choose crust--</option>
-                      <option value="">NY Style Pizza</option>
-                      <option value="">Neapolitan Crust</option>
-                      <option value="">Chicago Deep Dish</option>
-                      <option value="">Sicilian Style</option>
-                      <option value="">Thin Crust</option>
-                      <option value="">Flatbread</option>
-                      <option value="">Pizza Bagels</option>
-                      <option value="">Cheese-Stuffed Crust </option>
-                      <option value="">Fast Food Pizza</option>
+                      <option value="100">NY Style Pizza</option>
+                      <option value="90">Neapolitan Crust</option>
+                      <option value="80">Chicago Deep Dish</option>
+                      <option value="80">Sicilian Style</option>
+                      <option value="70">Thin Crust</option>
+                      <option value="60">Flatbread</option>
+                      <option value="60">Pizza Bagels</option>
+                      <option value="60">Cheese-Stuffed Crust </option>
+                      <option value="60">Fast Food Pizza</option>
                     </select>
                     <br>
 
@@ -107,17 +109,12 @@
           </div>
           <div class="form-group">
             <label for="sel1">Quantity:</label>
-            <select class="form-control w-50" id="sel1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-            </select>
-            <!-- <input id="btn" type="checkout"  class="btn btn-lg  bg-success" value="checkout" onclick="malgeePizza()"> -->
+            
+              <input class="form-control w-50 "id="sel1" type="number" name="pizza" id="quantity" placeholder="0" min="1">
+            
+            <input id="btn" type="button"  class="btn btn-lg  bg-success" value="checkout" onclick="alert()">
           </div>
-          <div class="contact-btn">
-              <button class="btn btn-lg bg-success" value="checkout" onclick="alert()">Checkout</button>
-          </div>
+         
 
 </div>
         </form>
