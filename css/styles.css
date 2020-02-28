@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Fondamento&display=swap');
 
 body{
     
@@ -31,7 +33,7 @@ body{
 .nav-item{
     padding: 30px;
     height:10px;
-    font-family: italic;
+    font-family: 'Courgette', cursive; 
     font-size: 20px;
  }
 
