@@ -5,7 +5,7 @@
 
 body{
     
-    background-image: url('../images/sumar.jpg');
+    background-image: url('../images/create.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -112,6 +112,8 @@ body{
 #sel1{
    margin-left: 25%; 
 } 
-
-
+.card-header{
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+}
 
