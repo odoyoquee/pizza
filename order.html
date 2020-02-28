@@ -45,7 +45,7 @@
         <form>
           <div class="form-group">
             <label for="sel1">Pizza Type:</label>
-            <select class="form-control w-50" id="sel1">
+            <select class="form-control w-50 sel1" id="typeOfPizza">
               <option value="0">--Choose Type--</option>
               <option value="850">Pepperoni</option>
               <option value="800">Deluxe/Supreme</option>
@@ -62,7 +62,7 @@
 
             <div class="form-group">
                 <label for="sel1">Pizza Size:</label>
-                <select class="form-control w-50" id="sel1">
+                <select class="form-control w-50 sel1" id="size">
                   <option value="0">--Choose Size</option>
                   <option value="1500">Mega</option>
                   <option value="1200">Large</option>
@@ -73,7 +73,7 @@
 
                 <div class="form-group">
                     <label for="sel1">Crust:</label>
-                    <select class="form-control w-50" id="sel1">
+                    <select class="form-control w-50 sel1"  id="crust">
                       <option value="0">--choose crust--</option>
                       <option value="100">NY Style Pizza</option>
                       <option value="90">Neapolitan Crust</option>
@@ -89,7 +89,7 @@
 
                     <div class="form-group">
                         <label for="sel1">Toppings:</label>
-                        <select class="form-control w-50" id="sel1">
+                        <select class="form-control w-50 sel1"  id="toppings">
                           <option value="0">--choose toppings--</option>
                           <option value="300">Pepperoni</option>
                           <option value="150">Mushrooms </option>
@@ -110,9 +110,9 @@
           <div class="form-group">
             <label for="sel1">Quantity:</label>
             
-              <input class="form-control w-50 "id="sel1" type="number" name="pizza" id="quantity" placeholder="0" min="1">
+              <input class="form-control w-50 sel1" type="number" name="pizza" id="quantity" placeholder="0" min="1">
+            <button id="btn" type="button"  class="btn btn-lg  bg-success" onclick="output()" >checkout</button>
             
-            <input id="btn" type="button"  class="btn btn-lg  bg-success" value="checkout" onclick="alert()">
           </div>
          
 
@@ -120,5 +120,6 @@
         </form>
       </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
