@@ -3,8 +3,7 @@
 
 body{
     
-    background-image: url('../images/victoria-shes-hbNOsm2eM1M-unsplash.jpg');
-    /* background-blend-mode: ; */
+    background-image: url('../images/sumar.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -96,7 +95,7 @@ body{
     font-family: 'Vidaloka';
 }
 #ceil{
-  color:black;
+  color:white;
   font-family: 'Fondamento', cursive;
   font-family: 'Courgette', cursive;
   font-size: 25px;
@@ -111,7 +110,6 @@ body{
 #sel1{
    margin-left: 25%; 
 } 
-
 
 
 
