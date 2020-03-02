@@ -13,7 +13,7 @@
 - There are no known bugs.
 
 ## Live links
- - gh-pages link- 
+ - gh-pages link - https://odoyoquee.github.io/pizza/
 
  ## Contact Information
  Email address: odoyograce23@gmail.com<br>
