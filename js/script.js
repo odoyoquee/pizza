@@ -15,31 +15,34 @@ function getQuantity() {
     return parseInt(selectedQuantity);
 }
 function getCrust() {
-    var selectedQuantity = document.getElementById("crust").value;
-    return parseInt(selectedQuantity);
+    var selectedCrust = document.getElementById("crust").value;
+    return parseInt(selectedCrust);
 }
-function getDrink() {
-    var selectedToppings = document.getElementById("typeOfPizza").value;
-    return parseInt(selectedToppings);
-}
+// function getDrink() {
+//     var selectedToppings = document.getElementById("typeOfPizza").value;
+//     return parseInt(selectedToppings);
+// }
 function getTotalAmount() {
-    let totalAmount = (getSize() + getToppings() + getDrink()) * getQuantity();
-    if(totalAmount){
-        alert("You have Ordered" + " " + getQuantity("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order,we hope to serve you again.");
+    let totalAmount = (getSize() + getToppings() + getCrust()) * getQuantity();
+    if (totalAmount && getSize() > 0 && getQuantity()) {
+        alert("You have Ordered" + " " + getQuantity("") + " pizza." + "" + " The Total Amount is kshs " + (totalAmount) + "" + " Thank you for your order,we hope to serve you again.");
     } else {
         return false
     }
     return totalAmount;
 }
-function output(){
+function output() {
     let ourAmount = getTotalAmount()
-    if(ourAmount){
+    if (ourAmount && totalAmount && getSize() > 0) {
         prompt('locale');
-        alert("Thanks")
-    }else{
-        alert("see yah")
+        alert("Thanks for buying from us")
+        alert('Your delivery cost is Sh.100');
+    } else if (getSize() < 1) {
+        alert("Enter pizza size")
+    } else {
+        alert('Hope to see you again')
     }
-       
+
 }
 
 

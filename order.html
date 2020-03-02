@@ -1,125 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>MalGee Pizza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>MalGee Pizza</title>
 </head>
+
 <body class="container-fluid">
-    <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-              
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="order.html">Order</a>
-              </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contacts</a>
-                </li>
-                
-            </ul>
-        </nav>
-    </header>
-    <div id="ceil">
+  <header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="order.html">Order</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <div id="ceil">
     <div class="container">
-        <h2 class="text-uppercase">Want to make an Order</h2>
-        <p>Make your choice below</p>
-        <form>
+      <h2 class="text-uppercase">Want to make an Order</h2>
+      <p>Make your choice below</p>
+      <form>
+        <div class="form-group">
+          <label for="sel1">Pizza Type:</label>
+          <select class="form-control w-50 sel1" id="typeOfPizza">
+            <option value="0">--Choose Type--</option>
+            <option value="850">Pepperoni</option>
+            <option value="800">Deluxe/Supreme</option>
+            <option value="750">Meat Lovers</option>
+            <option value="700">Margherita</option>
+            <option value="650">Vegetarian</option>
+            <option value="600">Hawaiian</option>
+            <option value="550">Cheese/Double Cheese</option>
+            <option value="500">Italian Sausage</option>
+            <option value="450">BBQ Chicken</option>
+            <option value="400">Mexican</option>
+          </select>
+          <br>
+
           <div class="form-group">
-            <label for="sel1">Pizza Type:</label>
-            <select class="form-control w-50 sel1" id="typeOfPizza">
-              <option value="0">--Choose Type--</option>
-              <option value="850">Pepperoni</option>
-              <option value="800">Deluxe/Supreme</option>
-              <option value="750">Meat Lovers</option>
-              <option value="700">Margherita</option>
-              <option value="650">Vegetarian</option>
-              <option value="600">Hawaiian</option>
-              <option value="550">Cheese/Double Cheese</option>
-              <option value="500">Italian Sausage</option>
-              <option value="450">BBQ Chicken</option>
-              <option value="400">Mexican</option>
+            <label for="sel1">Pizza Size:</label>
+            <select class="form-control w-50 sel1" id="size">
+              <option value="0">--Choose Size--</option>
+              <option value="1500">Mega</option>
+              <option value="1200">Large</option>
+              <option value="1000">Medium</option>
+              <option value="800">Small</option>
             </select>
             <br>
 
             <div class="form-group">
-                <label for="sel1">Pizza Size:</label>
-                <select class="form-control w-50 sel1" id="size">
-                  <option value="0">--Choose Size</option>
-                  <option value="1500">Mega</option>
-                  <option value="1200">Large</option>
-                  <option value="1000">Medium</option>
-                  <option value="800">Small</option>
+              <label for="sel1">Crust:</label>
+              <select class="form-control w-50 sel1" id="crust">
+                <option value="0">--choose crust--</option>
+                <option value="100">NY Style Pizza</option>
+                <option value="90">Neapolitan Crust</option>
+                <option value="80">Chicago Deep Dish</option>
+                <option value="80">Sicilian Style</option>
+                <option value="70">Thin Crust</option>
+                <option value="60">Flatbread</option>
+                <option value="60">Pizza Bagels</option>
+                <option value="60">Cheese-Stuffed Crust </option>
+                <option value="60">Fast Food Pizza</option>
+              </select>
+              <br>
+
+              <div class="form-group">
+                <label for="sel1">Toppings:</label>
+                <select class="form-control w-50 sel1" id="toppings">
+                  <option value="0">--choose toppings--</option>
+                  <option value="300">Pepperoni</option>
+                  <option value="150">Mushrooms </option>
+                  <option value="100">Onions</option>
+                  <option value="300">Sausage</option>
+                  <option value="150">Bacon</option>
+                  <option value="350">Extra cheese</option>
+                  <option value="200">Black olives</option>
+                  <option value="50">Green peppers</option>
+                  <option value="200">Pineapple</option>
+                  <option value="100">Spinach</option>
+
+
                 </select>
                 <br>
 
-                <div class="form-group">
-                    <label for="sel1">Crust:</label>
-                    <select class="form-control w-50 sel1"  id="crust">
-                      <option value="0">--choose crust--</option>
-                      <option value="100">NY Style Pizza</option>
-                      <option value="90">Neapolitan Crust</option>
-                      <option value="80">Chicago Deep Dish</option>
-                      <option value="80">Sicilian Style</option>
-                      <option value="70">Thin Crust</option>
-                      <option value="60">Flatbread</option>
-                      <option value="60">Pizza Bagels</option>
-                      <option value="60">Cheese-Stuffed Crust </option>
-                      <option value="60">Fast Food Pizza</option>
-                    </select>
-                    <br>
+              </div>
+              <div class="form-group">
+                <label for="sel1">Quantity:</label>
 
-                    <div class="form-group">
-                        <label for="sel1">Toppings:</label>
-                        <select class="form-control w-50 sel1"  id="toppings">
-                          <option value="0">--choose toppings--</option>
-                          <option value="300">Pepperoni</option>
-                          <option value="150">Mushrooms </option>
-                          <option value="100">Onions</option>
-                          <option value="300">Sausage</option>
-                          <option value="150">Bacon</option>
-                          <option value="350">Extra cheese</option>
-                          <option value="200">Black olives</option>
-                          <option value="50">Green peppers</option>
-                          <option value="200">Pineapple</option>
-                          <option value="100">Spinach</option>
-                        
-                        
-                        </select>
-                        <br>
+                <input class="form-control w-50 sel1" type="number" name="pizza" id="quantity" placeholder="0" min="1">
+                <button id="btn" type="button" class="btn btn-lg  bg-success" onclick="output()">checkout</button>
 
-          </div>
-          <div class="form-group">
-            <label for="sel1">Quantity:</label>
-            
-              <input class="form-control w-50 sel1" type="number" name="pizza" id="quantity" placeholder="0" min="1">
-            <button id="btn" type="button"  class="btn btn-lg  bg-success" onclick="output()" >checkout</button>
-            
-          </div>
-         
+              </div>
+              <p id="total">Your Total Order is:</p>
 
-</div>
-        </form>
-      </div>
+
+            </div>
+      </form>
     </div>
-    <script src="js/script.js"></script>
+  </div>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
