@@ -2,10 +2,6 @@ function getSize() {
     var selectedValue = document.getElementById("size").value;
     return parseInt(selectedValue);
 }
-// function getCrust() {
-//     var selectedCrust = document.getElementById("crust").value;
-//     return parseInt(selectedCrust);
-// }
 function getToppings() {
     var selectedToppings = document.getElementById("toppings").value;
     return parseInt(selectedToppings);
@@ -18,10 +14,7 @@ function getCrust() {
     var selectedCrust = document.getElementById("crust").value;
     return parseInt(selectedCrust);
 }
-// function getDrink() {
-//     var selectedToppings = document.getElementById("typeOfPizza").value;
-//     return parseInt(selectedToppings);
-// }
+
 function getTotalAmount() {
     let totalAmount = (getSize() + getToppings() + getCrust()) * getQuantity();
     if (totalAmount && getSize() > 0 && getQuantity()) {
@@ -33,8 +26,8 @@ function getTotalAmount() {
 }
 function output() {
     let ourAmount = getTotalAmount()
-    if (ourAmount && totalAmount && getSize() > 0) {
-        prompt('locale');
+    if (ourAmount && getSize() > 0) {
+        prompt('location');
         alert("Thanks for buying from us")
         alert('Your delivery cost is Sh.100');
     } else if (getSize() < 1) {
